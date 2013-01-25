@@ -1,0 +1,28 @@
+{
+	"manifest_version": 2,
+	
+	"name": "Embed Github Gists",
+	"version": "2.0",
+	"description": "Lets you easily embed files from a github repository like a gist.",
+	
+	"icons": { 
+		"16": "img/github16.png",
+		"32": "img/github32.png",
+		"48": "img/github48.png",
+		"128": "img/github128.png"
+		
+	},
+	"background": {
+		"scripts": ["embed.js"]
+	},
+	
+	"homepage_url": "https://github.com/ishu3101/Embed-Github-Gists",
+	
+	"permissions": [ 
+		"contextMenus",
+		"unlimitedStorage",
+		"tabs",
+		"http://*/*",
+		"https://*/*"		
+	]
+}
