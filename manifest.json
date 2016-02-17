@@ -19,10 +19,6 @@
 	"homepage_url": "https://github.com/ishu3101/Embed-Github-Gists",
 	
 	"permissions": [ 
-		"contextMenus",
-		"unlimitedStorage",
-		"tabs",
-		"http://*/*",
-		"https://*/*"		
+		"contextMenus"
 	]
 }
