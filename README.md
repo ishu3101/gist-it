@@ -2,6 +2,10 @@
 
 A Chrome Extension that lets you easily embed files from a github repository like a gist from a context menu.
 
+## Download
+
+[Download and install the extension](https://chrome.google.com/webstore/detail/embed-github-gists/gmemoangmfinnplfifcjjdfeapdfgjkg) from the Chrome Web Store
+
 ## Usage
 
 1. Visit the github repository page where the file is located.
