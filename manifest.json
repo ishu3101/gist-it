@@ -3,7 +3,7 @@
 	
 	"name": "Gist It",
 	"version": "2.1",
-	"description": "Lets you easily embed files from a github repository like a gist.",
+	"description": "Lets you easily embed files from a github repository into any webpage just like a gist.",
 	
 	"icons": { 
 		"16": "img/github16.png",
