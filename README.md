@@ -1,6 +1,6 @@
 ## Gist It
 
-A Chrome Extension that lets you easily embed files from a github repository like a gist from a context menu.
+A Chrome Extension that lets you easily embed files from a github repository into any webpage just like a gist from a context menu.
 
 ## Download
 
