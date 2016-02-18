@@ -4,7 +4,7 @@ A Chrome Extension that lets you easily embed files from a github repository int
 
 ## Download
 
-[Download and install the extension](https://chrome.google.com/webstore/detail/embed-github-gists/gmemoangmfinnplfifcjjdfeapdfgjkg) from the Chrome Web Store
+[Download and install the extension](https://chrome.google.com/webstore/detail/gist-it/gmemoangmfinnplfifcjjdfeapdfgjkg) from the Chrome Web Store
 
 ## Usage
 
