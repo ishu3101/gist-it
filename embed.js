@@ -11,16 +11,20 @@ function copyToClipboard(text){
 }
 
 chrome.contextMenus.create({
-    title: 'Get Embed Gists URL',
+    id: 'gist-it',
+    title: 'Gist It',
     contexts: ['link'],
-    onclick: function(info, tab) {
+    // The following array should consist of valid match patterns
+    // This context menu item will only be visible on matching links
+    targetUrlPatterns: ['http://github.com/*', 'https://github.com/*']
+});
+
+chrome.contextMenus.onClicked.addListener(function(info, tab) {
+    if (info.menuItemId == "gist-it") {
         var linkUrl = info.linkUrl;
 		//<script src="http://gist-it.sudarmuthu.com/http://github.com/$file"></script>
 		linkUrl = '&lt' + 'script src=' + '"http://gist-it.sudarmuthu.com/' + linkUrl +'"&gt' + '&lt' + '/script' +'&gt';
         copyToClipboard(linkUrl)
-    },
-    // The following array should consist of valid match patterns
-    // This context menu item will only be visible on matching links
-    targetUrlPatterns: ['https://github.com/*']
+    }
 });
 
