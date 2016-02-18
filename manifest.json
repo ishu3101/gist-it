@@ -16,7 +16,7 @@
 		"scripts": ["embed.js"]
 	},
 	
-	"homepage_url": "https://github.com/ishu3101/Embed-Github-Gists",
+	"homepage_url": "https://github.com/ishu3101/gist-it",
 	
 	"permissions": [ 
 		"contextMenus"
