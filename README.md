@@ -2,6 +2,10 @@
 
 A Chrome Extension that lets you easily embed files from a github repository into any webpage just like a gist from a context menu.
 
+## Demo
+
+![alt text][Demo]
+
 ## Download
 
 [Download and install the extension](https://chrome.google.com/webstore/detail/gist-it/gmemoangmfinnplfifcjjdfeapdfgjkg) from the Chrome Web Store
@@ -14,3 +18,5 @@ A Chrome Extension that lets you easily embed files from a github repository int
 4. The HTML code has been copied onto the clipboard.
 
 **Note: The context menu is only shown when you right click on the links on pages which begin with https://github.com/**
+
+[Demo]: demo.gif "Demo"
