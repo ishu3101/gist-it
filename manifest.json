@@ -14,7 +14,7 @@
 	},
 	"background": {
 		"scripts": ["embed.js"],
-		"permissions": false
+		"persistent": false
 	},
 	
 	"homepage_url": "https://github.com/ishu3101/gist-it",
